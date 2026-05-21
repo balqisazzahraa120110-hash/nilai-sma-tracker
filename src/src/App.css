@@ -1,0 +1,9 @@
+/* App specific styles */
+
+.tab-active {
+  @apply border-blue-600 text-blue-600;
+}
+
+.tab-inactive {
+  @apply border-transparent text-gray-600 hover:text-gray-800;
+}
